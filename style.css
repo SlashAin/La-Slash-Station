@@ -40,7 +40,7 @@ header{
     background: url('image/font.png');
     background-size: cover;
     color: #fff;
-    padding: 700px;
+    padding: 600px;
 }
 header h1{
     font-family: 'Playfair Display', serif;
@@ -71,6 +71,7 @@ header button{
     display: flex;
     flex-direction: column;
     align-items: center;
+    max-height: 65%;
 }
 .main .content .card{
     display: flex;
@@ -85,8 +86,38 @@ header button{
    color:#fff;
 }
 .main .content .card .right img{
-    height:300px;
-    width: 400px;
+    height:400px;
+    width: 500px;
+    margin-top: 5px;
+}
+section
+{
+    position:relative;
+    width: 100%;
+    height: 100vh;
+}
+.sec
+{
+    position: relative;
+    padding: 8px 30px;
+    background: #fff;
+    color: #7597de;
+    font-size: 1.5em;
+    z-index: 9;
+    transform: translateY(100px);
+}
+.sec h2
+{
+    font-size: 2em;
+    border-bottom: 1px solid #2b1055;
+    width: 31%;
+    margin-bottom: 10px;
+    color: #2b1055;
+}
+.sec p
+{
+    font-size: 1em;
+    color: #2b1055;
     margin-top: 5px;
 }
 
@@ -100,8 +131,8 @@ footer{
 footer h1{
     font-family: 'Playfair Display', serif;
     border-bottom: 1px solid white;
-    width: 11%;
-    padding-bottom: 5px;
+    width: 5%;
+    padding-bottom: 10px;
 }
 footer .contact{
     margin-top: -10px;
